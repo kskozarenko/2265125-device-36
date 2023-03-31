@@ -8,27 +8,27 @@
   <body>
     <header class="page-header">
       <a class="page-header-logo" href="index.html"></a>
+      <div class="header-form-wrapper">
+        <form
+          class="header-search-form"
+          action="https://echo.htmlacademy.ru/"
+          method="post"
+        >
+          <label class="form-label visually-hidden" for="site-search"
+            >Поиск по сайту</label
+          >
+          <input
+            class="search-field"
+            type="text"
+            id="site-search"
+            name="site-search"
+            placeholder="Поиск по сайту"
+          />
+        </form>
+        <button class="button search-button" type="submit">Найти</button>
+      </div>
       <nav class="navigation">
         <ul class="navigation-user">
-          <li class="navigation-user-item">
-            <form
-              class="header-search-form"
-              action="https://echo.htmlacademy.ru/"
-              method="post"
-            >
-              <label class="form-label visually-hidden" for="site-search"
-                >Поиск по сайту</label
-              >
-              <input
-                class="search-field"
-                type="text"
-                id="site-search"
-                name="site-search"
-                placeholder="Поиск по сайту"
-              />
-            </form>
-            <button class="button search-button" type="submit">Найти</button>
-          </li>
           <li class="navigation-user-item">
             <a class="navigation-user-link" href="#">Войти</a>
           </li>
@@ -265,53 +265,63 @@
     </main>
     <footer class="page-footer">
       <div class="footer-device-address-wrapper">
-      <img
-        class="visually-hidden page-footer-logo-device"
-        src="#"
-        alt="Логотип магазина электроники Device"
-      />
-      <address class="address page-footer-address">
-        <p class="address-text">
-          Санкт-Петербург, набережная Карповки, 5, литера П.
-        </p>
-      </address>
-    </div>
+        <img
+          class="visually-hidden page-footer-logo-device"
+          src="#"
+          alt="Логотип магазина электроники Device"
+        />
+        <address class="address page-footer-address">
+          <p class="address-text">
+            Санкт-Петербург, набережная Карповки, 5, литера П.
+          </p>
+        </address>
+      </div>
       <div class="footer-lists-wrapper">
-      <ul class="footer-services-list">
-        <li class="footer-services-item">
-          <button class="button footer-services-button">Доставка</button>
-        </li>
-        <li class="footer-services-item">
-          <button class="button footer-services-button">Гарантия</button>
-        </li>
-        <li class="footer-services-item">
-          <button class="button footer-services-button">Контакты</button>
-        </li>
-      </ul>
-      <ul class="footer-social-list">
-        <li class="visually-hidden footer-social-item">
-          <a class="footer-social-link" href="https://t.me/htmlacademy">Telegram</a>
-        </li>
-        <li class="visually-hidden footer-social-item">
-          <a class="footer-social-link" href="https://www.youtube.com/user/htmlacademyru">Youtube</a>
-        </li>
-        <li class="visually-hidden footer-social-item">
-          <a class="footer-social-link" href="https://twitter.com/htmlacademy_ru">Twitter</a>
-        </li>
-      </ul>
-    </div>
-    <div class="footer-phone-academy-wrapper">
-      <a class="footer-address-phone" href="tel:+78128121212"
-        >Тел.: +7 (812) 812-12-12</a
-      >
-      <a class="footer-academy-link" href="https://htmlacademy.ru/">
-      <img
-        class="visually-hidden page-footer-logo-academy"
-        src="#"
-        alt="Логотип HTML Academy"
-      />
-     </a>
-    </div>
+        <ul class="footer-services-list">
+          <li class="footer-services-item">
+            <button class="button footer-services-button">Доставка</button>
+          </li>
+          <li class="footer-services-item">
+            <button class="button footer-services-button">Гарантия</button>
+          </li>
+          <li class="footer-services-item">
+            <button class="button footer-services-button">Контакты</button>
+          </li>
+        </ul>
+        <ul class="footer-social-list">
+          <li class="visually-hidden footer-social-item">
+            <a class="footer-social-link" href="https://t.me/htmlacademy"
+              >Telegram</a
+            >
+          </li>
+          <li class="visually-hidden footer-social-item">
+            <a
+              class="footer-social-link"
+              href="https://www.youtube.com/user/htmlacademyru"
+              >Youtube</a
+            >
+          </li>
+          <li class="visually-hidden footer-social-item">
+            <a
+              class="footer-social-link"
+              href="https://twitter.com/htmlacademy_ru"
+              >Twitter</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="footer-phone-academy-wrapper">
+        <a class="footer-address-phone" href="tel:+78128121212"
+          >Тел.: +7 (812) 812-12-12</a
+        >
+        <a class="footer-academy-link" href="https://htmlacademy.ru/">
+          <img
+            class="visually-hidden page-footer-logo-academy"
+            src="#"
+            alt="Логотип HTML Academy"
+          />
+        </a>
+      </div>
     </footer>
   </body>
 </html>
