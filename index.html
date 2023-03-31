@@ -9,7 +9,7 @@
     <header class="page-header">
       <a class="header-logo-device" href="index.html">
         <svg
-          class="visually-hidden header-logo-device-icon"
+          class="header-logo-device-icon"
           aria-hidden="true"
           focusable="false"
           xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,9 @@
       <nav class="navigation">
         <ul class="navigation-user">
           <li class="navigation-user-item">
-            <a class="navigation-user-link" href="#">Войти</a>
+            <a class="navigation-user-link navigation-user-link" href="#"
+              >Войти</a
+            >
           </li>
           <li class="navigation-user-item">
             <a class="navigation-user-link" href="#">Сравнить</a>
@@ -57,12 +59,34 @@
             <a class="navigation-user-link" href="#">Корзина</a>
           </li>
         </ul>
+        <div class="navigation-catalog">
+          <button class="navigation-catalog-button" type="button">
+            Каталог товаров
+          </button>
+          <ul class="catalog-dropdown-list">
+            <li class="catalog-dropdown-item">
+              <a class="catalog-dropdown-link" href="#"
+                >Виртуальная реальность</a
+              >
+            </li>
+            <li class="catalog-dropdown-item">
+              <a class="catalog-dropdown-link" href="#">Моноподы для cелфи</a>
+            </li>
+            <li class="catalog-dropdown-item">
+              <a class="catalog-dropdown-link" href="#">Экшн-камеры</a>
+            </li>
+            <li class="catalog-dropdown-item">
+              <a class="catalog-dropdown-link" href="#">Фитнес-браслеты</a>
+            </li>
+            <li class="catalog-dropdown-item">
+              <a class="catalog-dropdown-link" href="#">Умные часы</a>
+            </li>
+            <li class="catalog-dropdown-item">
+              <a class="catalog-dropdown-link" href="#">Квадрокоптеры</a>
+            </li>
+          </ul>
+        </div>
         <ul class="navigation-list">
-          <li class="navigation-item">
-            <button class="navigation-link" type="button">
-              Каталог товаров
-            </button>
-          </li>
           <li class="navigation-item">
             <button class="navigation-link" type="button">Доставка</button>
           </li>
@@ -243,46 +267,51 @@
             </p>
           </li>
         </ul>
-        <div class="services-promo">
-          <p class="services-promo-text">Доставим редкий товар под заказ</p>
-        </div>
       </section>
-      <section class="about">
-        <h3 class="title about-title">О нас</h3>
-        <p class="about-text">
-          Огромный выбор гаджетов не оставит равнодушным гика, который есть в
-          каждом из нас.
-        </p>
-        <p class="about-text">
-          Мы можем доставить ваш товар в самые отдалённые уголки России
-          транспортными компаниями:
-        </p>
-        <ul class="about-list">
-          <li class="about-item">Меловые линии</li>
-          <li class="about-item">СДИК</li>
-          <li class="about-item">ТоксБерри</li>
-        </ul>
-        <a class="button about-button" href="#">Подробнее о нас</a>
+      <section class="delivery-promo">
+        <h3 class="visually-hidden">Специальное предложение по доставке</h3>
+        <a class="delivery-promo-text" href="#"
+          >Доставим редкий товар под заказ</a
+        >
       </section>
-      <section class="contacts">
-        <h3 class="title contacts-title">Контакты</h3>
-        <p class="contacts-text">
-          Вы можете забрать товар сами, заехав в наш офис. Заодно сможете
-          проверить работоспособность покупки.
-        </p>
-        <h4 class="title address-title">Интернет-магазин «Девайс»</h4>
-        <address class="address">
-          <p class="address-text">
-            Санкт-Петербург, набережная реки Карповки, 5, литера П.
+      <div class="info-wrapper">
+        <section class="about">
+          <h3 class="title about-title">О нас</h3>
+          <p class="about-text">
+            Огромный выбор гаджетов не оставит равнодушным гика, который есть в
+            каждом из нас.
           </p>
-          <a class="address-phone" href="tel:+78128121212"
-            >+7 (812) 812-12-12</a
-          >
-        </address>
-        <h4 class="title time-title">Время работы</h4>
-        <p>пн—пт: с 10:00 до 22:00<br />cб—вс: с 10:00 до 19:00</p>
-        <a class="button contacts-button" href="#">Напишите нам</a>
-      </section>
+          <p class="about-text">
+            Мы можем доставить ваш товар в самые отдалённые уголки России
+            транспортными компаниями:
+          </p>
+          <ul class="about-list">
+            <li class="about-item">Меловые линии</li>
+            <li class="about-item">СДИК</li>
+            <li class="about-item">ТоксБерри</li>
+          </ul>
+          <a class="button about-button" href="#">Подробнее о нас</a>
+        </section>
+        <section class="contacts">
+          <h3 class="title contacts-title">Контакты</h3>
+          <p class="contacts-text">
+            Вы можете забрать товар сами, заехав в наш офис. Заодно сможете
+            проверить работоспособность покупки.
+          </p>
+          <h4 class="title address-title">Интернет-магазин «Девайс»</h4>
+          <address class="address">
+            <p class="address-text">
+              Санкт-Петербург, набережная реки Карповки, 5, литера П.
+            </p>
+            <a class="address-phone" href="tel:+78128121212"
+              >+7 (812) 812-12-12</a
+            >
+          </address>
+          <h4 class="title time-title">Время работы</h4>
+          <p>пн—пт: с 10:00 до 22:00<br />cб—вс: с 10:00 до 19:00</p>
+          <a class="button contacts-button" href="#">Напишите нам</a>
+        </section>
+      </div>
       <section class="subscribe">
         <h3 class="title subscribe-title">Подпишитесь на рассылку</h3>
         <p class="subscribe-text">
@@ -307,14 +336,14 @@
             <span class="subscribe-submit">Подписаться</span>
           </button>
         </form>
-        <p class="subscribe-text subscribe-text-free">Это бесплатно</p>
+        <span class="subscribe-text subscribe-text-free">Это бесплатно</span>
       </section>
     </main>
     <footer class="page-footer">
       <div class="footer-device-address-wrapper">
         <a class="footer-logo-device" href="index.html">
           <svg
-            class="visually-hidden footer-logo-device-icon"
+            class="footer-logo-device-icon"
             aria-hidden="true"
             focusable="false"
             xmlns="http://www.w3.org/2000/svg"
@@ -349,24 +378,20 @@
           </li>
         </ul>
         <ul class="footer-social-list">
-          <li class="visually-hidden footer-social-item">
-            <a class="footer-social-link" href="https://t.me/htmlacademy"
-              >Telegram</a
-            >
+          <li class="footer-social-item">
+            <a class="footer-social-link" href="https://t.me/htmlacademy">
+              <span class="visually-hidden">Telegram</span>
+            </a>
           </li>
-          <li class="visually-hidden footer-social-item">
-            <a
-              class="footer-social-link"
-              href="https://www.youtube.com/user/htmlacademyru"
-              >Youtube</a
-            >
+          <li class="footer-social-item">
+            <a class="footer-social-link" href="https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">Youtube</span>
+            </a>
           </li>
-          <li class="visually-hidden footer-social-item">
-            <a
-              class="footer-social-link"
-              href="https://twitter.com/htmlacademy_ru"
-              >Twitter</a
-            >
+          <li class="footer-social-item">
+            <a class="footer-social-link" href="https://twitter.com/htmlacademy_ru">
+              <span class="visually-hidden">Twitter</span>
+            </a>
           </li>
         </ul>
       </div>
@@ -376,7 +401,7 @@
         >
         <a class="footer-academy-link" href="https://htmlacademy.ru/">
           <svg
-            class="visually-hidden page-footer-logo-academy"
+            class="page-footer-logo-academy"
             aria-hidden="true"
             focusable="false"
             xmlns="http://www.w3.org/2000/svg"
